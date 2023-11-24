@@ -286,6 +286,9 @@ function out(){
     return sumXand5()
 }
 */
+const ArrowFunction = (x, y) => x + y
+console.log(ArrowFunction(7, 5))
+
 
 // reduzindo o formato de escrita: quando tempos apenas uma propriedade de um objeto sendo utilizada na função anônima, podemos escrever o parâmetro como object literal especificando a propriedade do objeto que será trabalhada e utilizá-la sem que seja necessário escrever o nome do objeto
 const namesLength = names.map( ({length}) => length )
@@ -307,8 +310,12 @@ function out(){
 }
 console.log(out())
 
-// Desafio 06: Faça um esquema em que um código declara uma variável (let) e uma função faz a soma do valor da variável com um valor estático (5, por exemplo) como retorno. Outro código importa o primeiro e declara uma variável com o mesmo nome e outro valor. Em seguida, chama a função do primeiro código. Qual valor será exibido?
+// Desafio 06: Faça um esquema em que um código declara uma variável (let) e uma
+// função faz a soma do valor da variável com um valor estático (5, por exemplo)
+// como retorno. Outro código importa o primeiro e declara uma variável com o mesmo
+// nome e outro valor. Em seguida, chama a função do primeiro código. Qual valor será exibido?
 // Utilizar o artigo disponível no endereço https://www.horadecodar.com.br/2020/08/13/como-incluir-um-arquivo-de-javascript-em-outro/
+
 
 // ----------
 
