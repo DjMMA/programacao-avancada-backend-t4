@@ -113,6 +113,9 @@ console.log(chars)
 
 // Desafio 01: desenvolva uma calculadora para as 4 operações básicas usando const com os dados vindo de um formulário. Dica: utilize um objeto do tipo FormData para obter os dados do formulário.
 
+function calculator(){
+    
+}
 // ----------
 
 // object literal
